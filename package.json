@@ -1,6 +1,6 @@
 {
   "homepage":"https://marcelsafont.github.io/taylorapp",
-  "name": "firebase-react-auth",
+  "name": "taylor-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
