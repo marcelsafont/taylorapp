@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f99d94699daa266907e5258bb5e6021",
+    "revision": "c42a53d9ad2103fc676d26eec700ecb2",
     "url": "https://marcelsafont.github.io/taylorapp/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://marcelsafont.github.io/taylorapp/static/js/2.6fc39b6b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d6da94c48bbafa1403e1",
-    "url": "https://marcelsafont.github.io/taylorapp/static/js/main.dbe14b8c.chunk.js"
+    "revision": "3da07bb4e504a4cd1d40",
+    "url": "https://marcelsafont.github.io/taylorapp/static/js/main.f861c1b6.chunk.js"
   },
   {
     "revision": "c1c5d4f8e4269e83eecb",
