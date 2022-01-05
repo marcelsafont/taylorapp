@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/static/js/main.cbc43d93.chunk.js",
-    "main.js.map": "/static/js/main.cbc43d93.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.72fcf460.js",
-    "runtime-main.js.map": "/static/js/runtime-main.72fcf460.js.map",
-    "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.e7307a4b.chunk.js": "/static/js/2.e7307a4b.chunk.js",
-    "static/js/2.e7307a4b.chunk.js.map": "/static/js/2.e7307a4b.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.7f8c26f9bc734f344a8212e05e519834.js": "/precache-manifest.7f8c26f9bc734f344a8212e05e519834.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/js/2.e7307a4b.chunk.js.LICENSE.txt": "/static/js/2.e7307a4b.chunk.js.LICENSE.txt"
+    "main.js": "/taylorapp/static/js/main.17e10aac.chunk.js",
+    "main.js.map": "/taylorapp/static/js/main.17e10aac.chunk.js.map",
+    "runtime-main.js": "/taylorapp/static/js/runtime-main.f240da04.js",
+    "runtime-main.js.map": "/taylorapp/static/js/runtime-main.f240da04.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/taylorapp/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.6fc39b6b.chunk.js": "/taylorapp/static/js/2.6fc39b6b.chunk.js",
+    "static/js/2.6fc39b6b.chunk.js.map": "/taylorapp/static/js/2.6fc39b6b.chunk.js.map",
+    "index.html": "/taylorapp/index.html",
+    "precache-manifest.cbeda8edb107d8b075b6b735f2a594f8.js": "/taylorapp/precache-manifest.cbeda8edb107d8b075b6b735f2a594f8.js",
+    "service-worker.js": "/taylorapp/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/taylorapp/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/js/2.6fc39b6b.chunk.js.LICENSE.txt": "/taylorapp/static/js/2.6fc39b6b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.72fcf460.js",
+    "static/js/runtime-main.f240da04.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.e7307a4b.chunk.js",
-    "static/js/main.cbc43d93.chunk.js"
+    "static/js/2.6fc39b6b.chunk.js",
+    "static/js/main.17e10aac.chunk.js"
   ]
 }
