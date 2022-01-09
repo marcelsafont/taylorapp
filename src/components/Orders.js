@@ -1,9 +1,9 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useAuth } from "../contexts/AuthContext"
 import { Container, Navbar, Nav, ListGroup } from 'react-bootstrap'
 
 export default function Orders() {
-  const { currentUser, updatePassword, updateEmail } = useAuth()
+  const { currentUser } = useAuth()
   const [orders, setOrders] = useState([]);
   useEffect(()=>{
   fetch(process.env.REACT_APP_FIREBASE_USERORDERS,{
@@ -12,7 +12,7 @@ export default function Orders() {
     })
     .then(response => response.json())
     .then(setOrders);
-  }, []);
+  }, [currentUser.email]);
   return (
       <>
         <Navbar bg="light" expand="lg">

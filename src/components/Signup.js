@@ -36,10 +36,10 @@ export default function Signup() {
       }
       
       await signup(emailRef.current.value, passwordRef.current.value)
-      history.push("/")
+      history.push("/taylorapp")
     } catch(error) {
       console.log(error)
-      if(error == 'Error: Usuario no es cliente'){
+      if(error === 'Error: Usuario no es cliente'){
         setError("Este correo no es de un cliente de Tailoryou")
         return
       }

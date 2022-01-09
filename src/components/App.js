@@ -14,15 +14,15 @@ function App() {
   return (
     <Container>
       <div>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <AuthProvider>
             <Switch>
-              <PrivateRoute exact path="/" component={Dashboard} />
-              <PrivateRoute path="/update-profile" component={UpdateProfile} />
-              <Route path="/signup" component={Signup} />
-              <Route path="/login" component={Login} />
-              <Route path="/forgot-password" component={ForgotPassword} />
-              <Route path="/orders" component={Orders} />
+              <PrivateRoute exact path="/taylorapp" component={Dashboard} />
+              <PrivateRoute path="/taylorapp/update-profile" component={UpdateProfile} />
+              <Route path="/taylorapp/signup" component={Signup} />
+              <Route path="/taylorapp/login" component={Login} />
+              <Route path="/taylorapp/forgot-password" component={ForgotPassword} />
+              <Route path="/taylorapp/orders" component={Orders} />
             </Switch>
           </AuthProvider>
         </Router>

@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Button, Alert, Nav, Navbar, NavLink } from "react-bootstrap"
+import { Button, Alert } from "react-bootstrap"
 import { useAuth } from "../contexts/AuthContext"
 import { useHistory } from "react-router-dom"
 
@@ -13,29 +13,14 @@ export default function Dashboard() {
 
     try {
       await logout()
-      history.push("/login")
+      history.push("/taylorapp/login")
     } catch {
       setError("Failed to log out")
     }
   }
 
   return (
-    <>
-      <Navbar bg="light" expand="lg">
-       
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="/dashboard">Home</Nav.Link>
-              <Nav.Link href="/update-profile">Update Profile</Nav.Link>
-              <Nav.Link href="/orders">Orders</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-       
-      </Navbar>
-      
-        
+    <>  
           <h2 className="text-center mb-4">Profile</h2>
           {error && <Alert variant="danger">{error}</Alert>}
           <strong>Email:</strong> {currentUser.email}
