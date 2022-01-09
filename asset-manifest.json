@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "https://marcelsafont.github.io/taylorapp/static/js/main.bc10da66.chunk.js",
-    "main.js.map": "https://marcelsafont.github.io/taylorapp/static/js/main.bc10da66.chunk.js.map",
+    "main.js": "https://marcelsafont.github.io/taylorapp/static/js/main.15f54486.chunk.js",
+    "main.js.map": "https://marcelsafont.github.io/taylorapp/static/js/main.15f54486.chunk.js.map",
     "runtime-main.js": "https://marcelsafont.github.io/taylorapp/static/js/runtime-main.332f52f1.js",
     "runtime-main.js.map": "https://marcelsafont.github.io/taylorapp/static/js/runtime-main.332f52f1.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "https://marcelsafont.github.io/taylorapp/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.2e709374.chunk.js": "https://marcelsafont.github.io/taylorapp/static/js/2.2e709374.chunk.js",
     "static/js/2.2e709374.chunk.js.map": "https://marcelsafont.github.io/taylorapp/static/js/2.2e709374.chunk.js.map",
     "index.html": "https://marcelsafont.github.io/taylorapp/index.html",
-    "precache-manifest.51e83a5413132114a85b1f28167d4cfc.js": "https://marcelsafont.github.io/taylorapp/precache-manifest.51e83a5413132114a85b1f28167d4cfc.js",
+    "precache-manifest.bd1be2f04148b706658c31a3474deffe.js": "https://marcelsafont.github.io/taylorapp/precache-manifest.bd1be2f04148b706658c31a3474deffe.js",
     "service-worker.js": "https://marcelsafont.github.io/taylorapp/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "https://marcelsafont.github.io/taylorapp/static/css/2.d9ad5f5c.chunk.css.map",
     "static/js/2.2e709374.chunk.js.LICENSE.txt": "https://marcelsafont.github.io/taylorapp/static/js/2.2e709374.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.332f52f1.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.2e709374.chunk.js",
-    "static/js/main.bc10da66.chunk.js"
+    "static/js/main.15f54486.chunk.js"
   ]
 }
