@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "https://marcelsafont.github.io/taylorapp/static/js/main.d0a6f53e.chunk.js",
-    "main.js.map": "https://marcelsafont.github.io/taylorapp/static/js/main.d0a6f53e.chunk.js.map",
-    "runtime-main.js": "https://marcelsafont.github.io/taylorapp/static/js/runtime-main.332f52f1.js",
-    "runtime-main.js.map": "https://marcelsafont.github.io/taylorapp/static/js/runtime-main.332f52f1.js.map",
-    "static/css/2.d9ad5f5c.chunk.css": "https://marcelsafont.github.io/taylorapp/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.d387547f.chunk.js": "https://marcelsafont.github.io/taylorapp/static/js/2.d387547f.chunk.js",
-    "static/js/2.d387547f.chunk.js.map": "https://marcelsafont.github.io/taylorapp/static/js/2.d387547f.chunk.js.map",
-    "index.html": "https://marcelsafont.github.io/taylorapp/index.html",
-    "precache-manifest.e190d97e2ce137fe68ef3ffe96253bc2.js": "https://marcelsafont.github.io/taylorapp/precache-manifest.e190d97e2ce137fe68ef3ffe96253bc2.js",
-    "service-worker.js": "https://marcelsafont.github.io/taylorapp/service-worker.js",
-    "static/css/2.d9ad5f5c.chunk.css.map": "https://marcelsafont.github.io/taylorapp/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/js/2.d387547f.chunk.js.LICENSE.txt": "https://marcelsafont.github.io/taylorapp/static/js/2.d387547f.chunk.js.LICENSE.txt"
+    "main.js": "taylorapp/static/js/main.b6f1a278.chunk.js",
+    "main.js.map": "taylorapp/static/js/main.b6f1a278.chunk.js.map",
+    "runtime-main.js": "taylorapp/static/js/runtime-main.00986547.js",
+    "runtime-main.js.map": "taylorapp/static/js/runtime-main.00986547.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "taylorapp/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.d387547f.chunk.js": "taylorapp/static/js/2.d387547f.chunk.js",
+    "static/js/2.d387547f.chunk.js.map": "taylorapp/static/js/2.d387547f.chunk.js.map",
+    "index.html": "taylorapp/index.html",
+    "precache-manifest.140a0ad93655fbfe2d9f0fff2aa32118.js": "taylorapp/precache-manifest.140a0ad93655fbfe2d9f0fff2aa32118.js",
+    "service-worker.js": "taylorapp/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "taylorapp/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/js/2.d387547f.chunk.js.LICENSE.txt": "taylorapp/static/js/2.d387547f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.332f52f1.js",
+    "static/js/runtime-main.00986547.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.d387547f.chunk.js",
-    "static/js/main.d0a6f53e.chunk.js"
+    "static/js/main.b6f1a278.chunk.js"
   ]
 }
