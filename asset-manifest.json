@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "https://marcelsafont.github.io/taylorapp/static/js/main.54efc7ef.chunk.js",
-    "main.js.map": "https://marcelsafont.github.io/taylorapp/static/js/main.54efc7ef.chunk.js.map",
+    "main.js": "https://marcelsafont.github.io/taylorapp/static/js/main.d0a6f53e.chunk.js",
+    "main.js.map": "https://marcelsafont.github.io/taylorapp/static/js/main.d0a6f53e.chunk.js.map",
     "runtime-main.js": "https://marcelsafont.github.io/taylorapp/static/js/runtime-main.332f52f1.js",
     "runtime-main.js.map": "https://marcelsafont.github.io/taylorapp/static/js/runtime-main.332f52f1.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "https://marcelsafont.github.io/taylorapp/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.2e709374.chunk.js": "https://marcelsafont.github.io/taylorapp/static/js/2.2e709374.chunk.js",
-    "static/js/2.2e709374.chunk.js.map": "https://marcelsafont.github.io/taylorapp/static/js/2.2e709374.chunk.js.map",
+    "static/js/2.d387547f.chunk.js": "https://marcelsafont.github.io/taylorapp/static/js/2.d387547f.chunk.js",
+    "static/js/2.d387547f.chunk.js.map": "https://marcelsafont.github.io/taylorapp/static/js/2.d387547f.chunk.js.map",
     "index.html": "https://marcelsafont.github.io/taylorapp/index.html",
-    "precache-manifest.1815c88ed3f479ba4d4801f959cb2a6f.js": "https://marcelsafont.github.io/taylorapp/precache-manifest.1815c88ed3f479ba4d4801f959cb2a6f.js",
+    "precache-manifest.e190d97e2ce137fe68ef3ffe96253bc2.js": "https://marcelsafont.github.io/taylorapp/precache-manifest.e190d97e2ce137fe68ef3ffe96253bc2.js",
     "service-worker.js": "https://marcelsafont.github.io/taylorapp/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "https://marcelsafont.github.io/taylorapp/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/js/2.2e709374.chunk.js.LICENSE.txt": "https://marcelsafont.github.io/taylorapp/static/js/2.2e709374.chunk.js.LICENSE.txt"
+    "static/js/2.d387547f.chunk.js.LICENSE.txt": "https://marcelsafont.github.io/taylorapp/static/js/2.d387547f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.332f52f1.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.2e709374.chunk.js",
-    "static/js/main.54efc7ef.chunk.js"
+    "static/js/2.d387547f.chunk.js",
+    "static/js/main.d0a6f53e.chunk.js"
   ]
 }

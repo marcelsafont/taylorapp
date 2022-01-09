@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9bc95ae3267dff6cbb3e2ebfc4dfd41c",
+    "revision": "ab2dc29b452b2a9aa16f2f9fb34b7b5b",
     "url": "https://marcelsafont.github.io/taylorapp/index.html"
   },
   {
-    "revision": "79514d259dbe15b3a5f8",
+    "revision": "77907e2ffc0c1e256cd9",
     "url": "https://marcelsafont.github.io/taylorapp/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "79514d259dbe15b3a5f8",
-    "url": "https://marcelsafont.github.io/taylorapp/static/js/2.2e709374.chunk.js"
+    "revision": "77907e2ffc0c1e256cd9",
+    "url": "https://marcelsafont.github.io/taylorapp/static/js/2.d387547f.chunk.js"
   },
   {
     "revision": "df2659f20723d9e518ad965c595b69ee",
-    "url": "https://marcelsafont.github.io/taylorapp/static/js/2.2e709374.chunk.js.LICENSE.txt"
+    "url": "https://marcelsafont.github.io/taylorapp/static/js/2.d387547f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "191b769a9902b61e0c85",
-    "url": "https://marcelsafont.github.io/taylorapp/static/js/main.54efc7ef.chunk.js"
+    "revision": "a13e776670be18f77cd3",
+    "url": "https://marcelsafont.github.io/taylorapp/static/js/main.d0a6f53e.chunk.js"
   },
   {
     "revision": "c1c5d4f8e4269e83eecb",
