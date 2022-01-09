@@ -14,7 +14,7 @@ function App() {
   return (
     <Container>
       <div>
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
           <AuthProvider>
             <Switch>
               <PrivateRoute exact path="/taylorapp" component={Dashboard} />
