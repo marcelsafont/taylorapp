@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/taylorapp/precache-manifest.b6892363027a0de0ba061ba47de22f75.js"
+  "/taylorapp/precache-manifest.485a74d79e85e63f8f53e8de4e96ddd2.js"
 );
 
 self.addEventListener('message', (event) => {
