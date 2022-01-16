@@ -1,33 +1,27 @@
 import React, { useEffect, useState } from 'react'
 import { useAuth } from "../contexts/AuthContext"
-import { Container, Navbar, Nav, ListGroup } from 'react-bootstrap'
+import { Container, ListGroup } from 'react-bootstrap'
+import Layout from './Layout'
+import Loader from './Loader'
 
 export default function Orders() {
   const { currentUser } = useAuth()
-  const [orders, setOrders] = useState([]);
+  const [orders, setOrders] = useState(null);
   useEffect(()=>{
   fetch(process.env.REACT_APP_FIREBASE_USERORDERS,{
       method: 'POST',
       body: JSON.stringify({'email': currentUser.email})
     })
     .then(response => response.json())
-    .then(setOrders);
+    .then(setOrders)
   }, [currentUser.email]);
+  if (!orders) {
+    return (
+      <div><Layout><Loader /></Layout></div>
+    )
+  }
   return (
-      <>
-        <Navbar bg="light" expand="lg">
-         
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
-                <Nav.Link href="/dashboard">Home</Nav.Link>
-                <Nav.Link href="/update-profile">Update Profile</Nav.Link>
-                <Nav.Link href="/orders">Orders</Nav.Link>
-              </Nav>
-            </Navbar.Collapse>
-         
-        </Navbar>
+      <Layout>
         <Container>
           <ListGroup>
             {orders.map(item => 
@@ -39,6 +33,6 @@ export default function Orders() {
             )}
           </ListGroup>
         </Container>
-    </>
+    </Layout>
   )
 }

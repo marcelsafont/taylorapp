@@ -36,7 +36,7 @@ export default function Signup() {
       }
       
       await signup(emailRef.current.value, passwordRef.current.value)
-      history.push("/taylorapp")
+      history.push("/")
     } catch(error) {
       console.log(error)
       if(error === 'Error: Usuario no es cliente'){
